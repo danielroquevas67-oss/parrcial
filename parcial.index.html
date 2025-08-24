@@ -1,0 +1,88 @@
+css
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrategias de Fidelización de Clientes</title>
+  <meta name="description" content="Conoce qué es la fidelización de clientes, sus estrategias principales y datos interesantes para mejorar la lealtad hacia una marca.">
+  <style>
+    :root { --bg:#f6f7fb; --text:#222; --muted:#555; --accent:#8b5cf6; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+    /* Hero */
+    .hero { padding: 48px 16px; text-align: center; background: linear-gradient(135deg, #ede9fe, #faf5ff); }
+    .hero h1 { margin: 0 0 8px; font-size: 38px; color: var(--text); }
+    .hero p { margin: 0; color: var(--muted); font-size: 18px; }
+
+    /* Contenedor */
+    .container { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; }
+    h2 { color: var(--accent); margin-top: 32px; font-size: 24px; }
+
+    /* Listas */
+    ul { line-height: 1.7; padding-left: 20px; }
+
+    /* Grid */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 12px; }
+
+    /* Tarjetas */
+    .card { background: #fff; border-radius: 14px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,.06); transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 10px 22px rgba(0,0,0,.1); }
+
+    /* Imagenes */
+    .imgwrap { overflow: hidden; border-radius: 12px; height: 200px; background: #eee; }
+    .imgwrap img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s ease; }
+    .imgwrap:hover img { transform: scale(1.05); }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #ede9fe; color: var(--muted); font-size: 14px; margin-top: 40px; border-top: 1px solid #ddd; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Estrategias de Fidelización de Clientes</h1>
+    <p>Página sobre fidelización de clientes</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>¿Qué es la fidelización de clientes?</h2>
+      <p>La fidelización de clientes es el conjunto de estrategias y acciones que una empresa implementa para lograr que sus clientes sigan comprando sus productos o servicios de manera recurrente. No se trata solo de que vuelvan a comprar, sino de construir una relación de confianza y satisfacción que haga que prefieran la marca frente a la competencia. En otras palabras la fidelización de clientes consiste en implementar acciones para que las personas sigan eligiendo los productos o servicios de una empresa, creando relaciones duraderas y de confianza.</p>
+    </section>
+
+    <section class="card">
+      <h2>Estrategias principales</h2>
+      <ul>
+        <li>Programas de recompensas y descuentos exclusivos.</li>
+        <li>Atención al cliente rápida y personalizada.</li>
+        <li>Comunicación constante a través de email y redes sociales.</li>
+        <li>Ofrecer experiencias únicas y diferenciadas.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Imágenes</h2>
+      <div class="grid">
+        <div class="imgwrap">
+          <img src="atencion-al-cliente.jpg" alt="Atención al cliente" loading="lazy">
+        </div>
+        <div class="imgwrap">
+          <img src="lealtad.jpg" alt="Programa de lealtad" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Datos interesantes</h2>
+      <p>Estudios demuestran que retener a un cliente puede ser entre 5 y 7 veces más económico que adquirir uno nuevo, lo que convierte a la fidelización en una estrategia clave para el éxito de cualquier negocio.</p>
+      <p>No siempre basta con ofrecer buen precio. Los clientes que sienten una conexión emocional con una marca tienen hasta tres veces más probabilidades de recomendarla y volver a comprar, comparados con aquellos que solo están satisfechos de forma “racional”.</p>
+      <p>Un cliente fiel no solo compra más veces, sino que suele gastar más dinero en cada compra. Por eso, muchas empresas calculan cuánto puede generar un cliente durante toda su relación con la marca, y ajustan sus estrategias de fidelización para maximizar ese valor.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Estrategias de Fidelización de Clientes - Página educativa</p>
+  </footer>
+</body>
+</html>
